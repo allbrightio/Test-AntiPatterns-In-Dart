@@ -22,7 +22,7 @@ Tests that are called unit tests but are really integration tests since there is
 
 The tests stay on happy paths (i.e. expected results, e.g. 18 years old) without testing for boundaries and exceptions (e.g. -2 years old).
 
-## [Slow Poke](test/.dart) ✓
+## [Slow Poke](test/slow_poke_test.dart) ✓
 
 A unit test that runs incredibly slow. When developers kick it off, they have time to go to the bathroom, grab a smoke, or worse, kick the test off before they go home at the end of the day. [3]
 
@@ -66,7 +66,7 @@ A unit test (or test suite) that clutters up the console with diagnostic message
 
 A unit test which catches exceptions and swallows the stack trace, sometimes replacing it with a less informative failure message, but sometimes even just logging (cf. Loudmouth) and letting the test pass. [3]
 
-## [Sequencer](test/.dart) ✓
+## [Sequencer](test/sequencer_test.dart) ✓
 
 A unit test that depends on items in an unordered list appearing in the same order during assertions. [3]
 
