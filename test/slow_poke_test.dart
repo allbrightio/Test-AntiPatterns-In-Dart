@@ -35,7 +35,8 @@ void main() {
     'Slow Poke Test',
     () async {
       // Given
-      final articlesJson = await File('resources/file.txt').readAsString();
+      final articlesJson =
+          await File('resources/my_all_articles_2mb.json').readAsString();
       final testArticles = jsonDecode(articlesJson);
       final articleRepository = SimpleArticleRepository(testArticles);
 
@@ -43,7 +44,7 @@ void main() {
       final articles = await articleRepository.getArticles();
 
       // Then
-      expect(articles.length, 10);
+      expect(articles.length, 22593);
     },
     skip: true,
   );
