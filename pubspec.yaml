@@ -1,0 +1,14 @@
+name: test_antipatterns_in_dart
+description: Test AntiPatterns In Dart
+version: 0.1.0
+repository: https://https://github.com/allbrightio/Test-AntiPatterns-In-Dart
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  pedantic: ^1.0.0
+
+dev_dependencies:
+  test: ^1.9.0
+  mockito: ^4.1.0
