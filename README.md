@@ -96,10 +96,10 @@ At first glance, the tests cover everything and code coverage tools confirm it w
 
 # References
 
-[Unit Testing Anti-Patterns, Full List](https://www.yegor256.com/2018/12/11/unit-testing-anti-patterns.html) by Yegor Bugayenko
+1. [Unit Testing Anti-Patterns, Full List](https://www.yegor256.com/2018/12/11/unit-testing-anti-patterns.html) by Yegor Bugayenko
 
-[TDD Anti-Patterns](http://archive.is/3acB#selection-119.0-119.17) by James Carr 
+2. [TDD Anti-Patterns](http://archive.is/3acB#selection-119.0-119.17) by James Carr 
 
-[Anti-Patterns](https://www.digitaltapestry.net/testify/manual/AntiPatterns.html) by William E. Kempf
+3. [Anti-Patterns](https://www.digitaltapestry.net/testify/manual/AntiPatterns.html) by William E. Kempf
 
-[Unit testing Anti-patterns catalogue](https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue) at Stack Overflow
+4. [Unit testing Anti-patterns catalogue](https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue) at Stack Overflow
