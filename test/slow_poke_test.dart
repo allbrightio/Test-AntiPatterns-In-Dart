@@ -31,23 +31,19 @@ class SimpleArticleRepository implements ArticleRepository {
 }
 
 void main() {
-  test(
-    'Slow Poke Test',
-    () async {
-      // Given
-      final articlesJson =
-          await File('resources/my_all_articles_2mb.json').readAsString();
-      final testArticles = jsonDecode(articlesJson);
-      final articleRepository = SimpleArticleRepository(testArticles);
+  test('Slow Poke Test', () async {
+    // Given
+    final articlesJson =
+        await File('resources/my_all_articles_2mb.json').readAsString();
+    final testArticles = jsonDecode(articlesJson);
+    final articleRepository = SimpleArticleRepository(testArticles);
 
-      // When
-      final articles = await articleRepository.getArticles();
+    // When
+    final articles = await articleRepository.getArticles();
 
-      // Then
-      expect(articles.length, 22593);
-    },
-    skip: true,
-  );
+    // Then
+    expect(articles.length, 22593);
+  }, skip: true);
 
   test('Slow Poke Test Fix', () async {
     // Given
